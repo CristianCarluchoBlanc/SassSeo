@@ -1,0 +1,17 @@
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: gray;
+    align-items: center; 
+ul{
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+    margin-right: 10px;
+    }
+  li a{
+        color: white;
+        text-decoration: none;
+    }
+ }

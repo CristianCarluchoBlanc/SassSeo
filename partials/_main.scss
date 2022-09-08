@@ -1,17 +1,8 @@
-*{
-    box-sizing: border-box;
-    font-family: "Noto Sans";
-}
-.body{
-    background-image: url(../img/pexels-victor-freitas-791763.jpg);
-
-}
-.navbar{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    
-    align-items: center;
+.main{
+    height: 600px;
+    text-align: center;
+    color: blanchedalmond;
+    grid-area: "principal"; 
 }
 .container{
     grid-template-columns: auto;
@@ -27,26 +18,12 @@
     width: 60px;
     height: 60px;
 }
-.navbar ul{
-list-style-type: none;
-display: flex;
-gap: 10px;
-margin-right: 10px;
-}
-.navbar ul li a{
-    color: white;
-    text-decoration: none;
-}
+
 .ayuda{
     color: white;
     text-decoration: none;
 }
-.main{
-    height: 600px;
-    text-align: center;
-    color: blanchedalmond;
-    grid-area: "principal";
-}
+
 .header{
     grid-area: "header";
 }
@@ -55,22 +32,7 @@ margin-right: 10px;
     text-align: center;
     align-items: center;
 }
-.footer {
-    display: flex; 
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    grid-area: "footer";
-}
-.footer ul{
-    display: flex;
-    flex-wrap: wrap; 
-    align-items: center;
-    text-decoration: none;
-    gap: 50px;
-    list-style-type: none;
-    text-decoration: none;
-}
+
 .soporte{
     text-decoration: none;
     color: white;
@@ -145,18 +107,3 @@ height: 300px;
     background-color: gray;
     text-align: center;
 }
-
-@media (max-width:567px) {
-    .navbar ul li a{
-        font-size: 14px;
-    }
-}
-
-.boton-default {
-    border: none;
-    padding: 10px;
-    border-radius: 05px;
-  }
-  
-
-

@@ -1,0 +1,18 @@
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    grid-area: "footer";
+  
+ ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-decoration: none;
+    gap: 50px;
+    list-style-type: none;
+    text-decoration: none;
+  }
+ }
+ 
